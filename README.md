@@ -16,46 +16,29 @@ The program SFSXplorer allows us to explore the scoring function space. All file
 The input file sfs.in is shown below,
 
 chklig_in,chklig.in
+
 dataset_dir,/Users/labioquest/Desktop/AutoDock3_Dataset/Dataset/
+
 scores_out,scores_out.csv
+
 sandres_out,sandres_out.csv
+
 binding_type,ki
+
 
 The first line brings the name of the chklig file, that brings the list of thd PDB files present in the dataset. The second line shows
 the directory where the PDB files are.
 The follwing two lines indicate the output files and the last line the type of binding affinity.
 The chklig.in is as follows,
+
 # Type of binding information: ki
+
 CHKLIG,1DWB,BEN,H,  1, 2.92
+
 CHKLIG,1ETR,MIT,H,  1, 7.40
-CHKLIG,1ETS,MID,H,  1, 8.52
-CHKLIG,1ETT,4QQ,H,301, 6.19
-CHKLIG,1FKF,FK5,A,108, 9.70
-CHKLIG,1HVJ,A78,A,800,10.46
-CHKLIG,1HVR,XK2,A,263, 9.51
-CHKLIG,1MBI,IMD,A,155, 1.88
-CHKLIG,1RBP,RTL,A,183, 6.72
-CHKLIG,1TLP,RDF,E,317, 7.55
-CHKLIG,1TMN,0ZN,E,317, 7.30
-CHKLIG,1ULB,GUN,A,290, 5.30
-CHKLIG,2CPP,CAM,A,422, 6.07
-CHKLIG,2ER6,PUK,I,  1, 7.22
-CHKLIG,2GBP,BGC,A,310, 7.60
-CHKLIG,2IFB,PLM,A,133, 5.43
-CHKLIG,2MCP,1PC,H,223, 5.23
-CHKLIG,2XIS,XYL,A,390, 5.82
-CHKLIG,2YPI,PGA,B,249, 4.82
-CHKLIG,3CPA,GLT,A,501, 3.88
-CHKLIG,3PTB,BEN,A,  1, 4.74
-CHKLIG,4CNA,MAN,A,  3, 2.00
-CHKLIG,4DFR,MTX,B,162, 9.70
-CHKLIG,4HMG,SIA,E,329, 2.55
-CHKLIG,4HVP,2NC,B,  0, 6.15
-CHKLIG,4TLN,LNO,A,322, 3.72
-CHKLIG,4TMN,0PK,E,317,10.19
-CHKLIG,5HVP,STA,C,  6, 5.96
-CHKLIG,5TMN,0PJ,E,317, 8.04
-CHKLIG,6CPA,ZAF,A,309,11.52
+
+...
+
 
 The first column is a keyword to indicate that this line brings ligand data. The second column shows the PDB access code, followed by
 the ligand id, ligand chain, ligand number, and the binding affinity. The firt line shows the type of binding affinity.
