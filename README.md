@@ -21,7 +21,6 @@ scores_out,scores_out.csv
 sandres_out,sandres_out.csv
 binding_type,ki
 
-
 The first line brings the name of the chklig file, that brings the list of thd PDB files present in the dataset. The second line shows
 the directory where the PDB files are.
 The follwing two lines indicate the output files and the last line the type of binding affinity.
