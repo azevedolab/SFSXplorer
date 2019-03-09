@@ -1,6 +1,5 @@
 # SFSXplorer - Scoring Function Space eXplorer
-
-https://azevedolab.net/resources/going_through_scoring_function_space_2018_11_30a.gif?timestamp=1543757625197
+<img src=https://azevedolab.net/resources/going_through_scoring_function_space_2018_11_30a.gif?timestamp=1543757625197>
 
 In our research, we see protein-ligand interaction as a result of the relation between the protein space (Smith, 1970) and the chemical space (Bohacek et al., 1996; Kirkpatrick & Ellis, 2004), and we propose to represent these sets as a unique complex system, where the application of computational methodologies may contribute to generate models to predict protein-ligand binding affinities. Such approaches have the potential to create novel semi-empirical force fields to predict binding affinity with superior predictive power when compared with standard methodologies. 
 
