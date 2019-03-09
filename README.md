@@ -74,6 +74,8 @@ The first column is a keyword to indicate that this line brings ligand data. The
 the ligand id, ligand chain, ligand number, and the binding affinity. The firt line shows the type of binding affinity.
 
 References
+<P>&nbsp;</P>
+
 -Amaral MEA, Nery LR, Leite CE, de Azevedo Junior WF, Campos MM. Pre-clinical effects of metformin and aspirin on the cell lines of different breast cancer subtypes. Invest New Drugs. 2018; 36(5):782–796. 
 
 -Bitencourt-Ferreira G, de Azevedo Jr. WF. Development of a machine-learning model to predict Gibbs free energy of binding for protein-ligand complexes. Biophys Chem. 2018; 240: 63–69.  
@@ -100,11 +102,12 @@ References
 
 -Russo S, de Azevedo WF. Advances in the Understanding of the Cannabinoid Receptor 1 - Focusing on the Inverse Agonists Interactions. Curr Med Chem. 2018. doi: 10.2174/0929867325666180417165247 
 
-Shoichet BK. Virtual screening of chemical libraries. Nature. 2004; 432(7019):862–865.
+-Shoichet BK. Virtual screening of chemical libraries. Nature. 2004; 432(7019):862–865.
 
 -Smith JM. Natural selection and the concept of a protein space. Nature. 1970; 225(5232): 563–564.
 
 -Stockwell BR. Exploring biology with small organic molecules. Nature. 2004; 432(7019):846–854.
 
 -Xavier MM, Heck GS, de Avila MB, Levin NM, Pintro VO, Carvalho NL, Azevedo WF Jr. SAnDReS a Computational Tool for Statistical Analysis of Docking Results and Development of Scoring Functions. Comb. Chem. High Throughput Screen. 2016; 19(10): 801–12.
+
 
