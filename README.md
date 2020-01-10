@@ -35,7 +35,7 @@ If we take into account a subspace of the chemical space composed of structures 
 
 Finally, we consider a mathematical space composed of infinite scoring functions, each element of this space is a mathematical function that uses the atomic coordinates of protein-ligand complexes to predict the binding affinity. We indicate this relationship as an arrow from the scoring function space to the arrow indicating the relation between CDK and the chemical space, as shown below (Fig. 5).
 
-<img src="http://azevedolab.net/resources/azevedolab_sfs_2018_09_21.png" height="300">
+<img src="https://azevedolab.net/resources/azevedolab_sfs_2018_09_21.png" height="300">
 <I>Fig. 5. A view of the scoring function space as a way to develop a computational model to predict ligand-binding affinity. Structures of proteins available with the following PDB access codes: 2OW4, 2OVU, 2IDZ, 2GSJ, 2G85, 2A4l, 1ZTB, 1Z99, 1WE2, 1M73, 1FLH, and 1FHJ.</I>
 <P>&nbsp;</P>
 
@@ -46,13 +46,9 @@ The program SFSXplorer allows us to explore the scoring function space. All nece
 The input file sfs.in is shown below,
 
 chklig_in,chklig.in
-
 dataset_dir,/Users/labioquest/Desktop/AutoDock3_Dataset/Dataset/
-
 scores_out,scores_out.csv
-
 sandres_out,sandres_out.csv
-
 binding_type,ki
 
 
@@ -64,16 +60,14 @@ The chklig.in is as follows,
 /# Type of binding information: ki
 
 CHKLIG,1DWB,BEN,H,  1, 2.92
-
 CHKLIG,1ETR,MIT,H,  1, 7.40
-
 ...
 
 
 The first column is a keyword to indicate that this line brings ligand data. The second column shows the PDB access code, followed by
 the ligand id, ligand chain, ligand number, and the binding affinity. The firt line shows the type of binding affinity.
 
-References
+<B>References</B>
 <P>&nbsp;</P>
 
 -Amaral MEA, Nery LR, Leite CE, de Azevedo Junior WF, Campos MM. Pre-clinical effects of metformin and aspirin on the cell lines of different breast cancer subtypes. Invest New Drugs. 2018; 36(5):782–796. 
