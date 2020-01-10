@@ -46,9 +46,13 @@ The program SFSXplorer allows us to explore the scoring function space. All nece
 The input file sfs.in is shown below,
 
 chklig_in,chklig.in
+
 dataset_dir,/Users/labioquest/Desktop/AutoDock3_Dataset/Dataset/
+
 scores_out,scores_out.csv
+
 sandres_out,sandres_out.csv
+
 binding_type,ki
 
 
@@ -60,7 +64,9 @@ The chklig.in is as follows,
 /# Type of binding information: ki
 
 CHKLIG,1DWB,BEN,H,  1, 2.92
+
 CHKLIG,1ETR,MIT,H,  1, 7.40
+
 ...
 
 
