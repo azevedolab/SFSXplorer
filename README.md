@@ -43,40 +43,69 @@ So, the basic idea is quite simple; we intend to identify an element of the scor
 
 The program SFSXplorer allows us to explore the scoring function space. All necessary files to run SFSXplorer are in the zipped folder.
 The input file sfs.in is shown below,
+
 # Set up general parameters for SFSXplorer
+
 chklig_in,Inputs/chklig.in
+
 dataset_dir,F:\Projects\SFSXplorer2020e\Dataset\
+
 scores_out,Outputs/scores_out.csv
+
 sandres_out,Outputs/sandres_out.csv
+
 binding_type,ki
+
 # For electrostatic potential (set up parameters for arrays)
+
 l_i,0.001787        # Initial value of lambda used in dieletric permittivity calculation (0.001787) (float)
+
 l_f,0.003627        # Final value of lambda used in dieletric permittivity calculation (0.003627) (float)
+
 n_l,5               # Number of elements of lambda used in dieletric permittivity calculation (5) (integer)
+
 k_i,3.4781          # Initial value of k used in dieletric permittivity calculation (3.4781) (float)
+
 k_f,7.7839          # Final value of k used in dieletric permittivity calculation (7.7839) (float)
+
 n_k,5               # Number of elements of k used in dieletric permittivity calculation (5) (integer)
+
 a_i,-20.929         # Initial value of A used in dieletric permittivity calculation (-20.929) (float)
+
 a_f,-8.5525         # Final value of A used in dieletric permittivity calculation (-8.5525) (float)
+
 n_a,5               # Number of elements of A used in dieletric permittivity calculation (5) (integer)
+
 e0_i,70.0           # Initial value of epsilon0(e0) (70.0) (dielectric constant of bulk water at 25˚C e0 = 78.4) (float)
+
 e0_f,78.4           # Final value of epsilon0(e0) (78.4) (dielectric constant of bulk water at 25˚C e0 = 78.4) (float)
+
 n_e0,5              # Number of elements of epsilon0(e0) (5) (dielectric constant of bulk water at 25˚C e0 = 78.4) (float)
+
 # For Solvatation potential (set up parameters for arrays)
+
 m_sol_i,1           # Initial value of expoent m (1) (integer)
+
 m_sol_f,4           # Final value of expoent m (4) (integer)
+
 n_m_sol,4           # Number of elements of expoent m (4) (integer)
+
 n_sol_i,1           # Initial value of expoent n (1) (integer)
+
 n_sol_f,4           # Final value of expoent n (4) (integer)
+
 n_n_sol,4           # Number of elements of expoent nnnnn (4) (integer)
+
 sigma_sol_i,2.5     # Initial value of sigma used in desolvatation potential (2.5 Angtrom)
+
 sigma_sol_f,5.5     # Final value of sigma used in desolvatation potential (5.5 Angstrom)
+
 n_sigma_sol,4       # Number of elements of sigma used in desolvatation potential (5)
 
 
-The first line brings the name of the chklig file, that brings the list of thd PDB files present in the dataset. The second line shows
+The first line brings the name of the chklig file, that has the list of thd PDB files present in the dataset. The second line shows
 the directory where the PDB files are.
-The follwing two lines indicate the output files and the last line the type of binding affinity. The following lines bring specific information about each
+The next two lines indicate the output files and the last line the type of binding affinity. The following lines bring specific information about each
 energy term calculated by SFSXplorer.
 
 The chklig.in is as follows,
@@ -84,11 +113,12 @@ The chklig.in is as follows,
 /# Type of binding information: ki
 
 CHKLIG,1DWB,BEN,H,  1, 2.92
+
 CHKLIG,1ETR,MIT,H,  1, 7.40
 ...
 
 The first column is a keyword to indicate that this line brings ligand data. The second column shows the PDB access code, followed by
-the ligand id, ligand chain, ligand number, and the binding affinity. The firt line shows the type of binding affinity.
+the ligand id, ligand chain, ligand number, and the binding affinity. The first line shows the type of binding affinity.
 
 <B>References</B>
 <P>&nbsp;</P>
