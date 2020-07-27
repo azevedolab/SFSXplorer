@@ -46,18 +46,29 @@ You need to have Python 3 installed on your computer to run SFSXplorer. In addit
 *You can use higher versions as well.
 
 Windows
+
 Step 1. Download SFSXplorer 
+
 Step 2. Unzip the zipped file SFSXplorer.zip
+
 Step 3. Copy SFSXplorer directory to c:\ 
+
 Step 4. Open a command prompt window and type: cd c:\SFSXplorer 
+
 Step 5. Then type: python run_sfsxplorer.py 
-That´s it, good exploration of the scoring function space. 
+
+
 
 Linux
+
 Step 1. Download SFSXplorer
+
 Step 2. Unzip the zipped file SFSXplorer.zip
+
 Step 3. Copy SFSXplorer directory to the directory of your choice
+
 Step 4. Open a terminal and type cd /your personal directory/SFSXplorer
+
 Step 5. Then type: python run_sfsxplorer.py
 
 That´s it, good exploration of the scoring function space. 
