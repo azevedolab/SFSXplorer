@@ -103,7 +103,7 @@ sigma_sol_f,5.5     # Final value of sigma used in desolvatation potential (5.5 
 n_sigma_sol,4       # Number of elements of sigma used in desolvatation potential (5)
 
 
-The first line brings the name of the chklig file, that has the list of thd PDB files present in the dataset. The second line shows
+The first line brings the name of the chklig file, that has the list of the PDB files present in the dataset. The second line shows
 the directory where the PDB files are.
 The next two lines indicate the output files and the last line the type of binding affinity. The following lines bring specific information about each
 energy term calculated by SFSXplorer.
