@@ -41,6 +41,27 @@ Finally, we consider a mathematical space composed of infinite scoring functions
 Moving forward, we propose that there exist at least one scoring function capable of predicting the ligand binding affinity of the elements of the chemical space for a component of the protein space. 
 So, the basic idea is quite simple; we intend to identify an element of the scoring function space that predicts the binding affinity of a component of the protein space for all elements of the subspace of the chemical space composed of ligands for the element of the protein space.
 
+# Installation
+You need to have Python 3 installed on your computer to run SFSXplorer. In addition, you also need NumPy (1.14.5*), Matplotlib, scikit-learn (0.19.1*), and SciPy (1.1.0*).
+*You can use higher versions as well.
+
+Windows
+Step 1. Download SFSXplorer 
+Step 2. Unzip the zipped file SFSXplorer.zip
+Step 3. Copy SFSXplorer directory to c:\ 
+Step 4. Open a command prompt window and type: cd c:\SFSXplorer 
+Step 5. Then type: python run_sfsxplorer.py 
+That´s it, good exploration of the scoring function space. 
+
+Linux
+Step 1. Download SFSXplorer
+Step 2. Unzip the zipped file SFSXplorer.zip
+Step 3. Copy SFSXplorer directory to the directory of your choice
+Step 4. Open a terminal and type cd /your personal directory/SFSXplorer
+Step 5. Then type: python run_sfsxplorer.py
+
+That´s it, good exploration of the scoring function space. 
+
 The program SFSXplorer allows us to explore the scoring function space. All necessary files to run SFSXplorer are in the zipped folder.
 The input file sfs.in is shown below,
 
