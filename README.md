@@ -34,7 +34,7 @@ That´s it, good exploration of the scoring function space.
 The program SFSXplorer allows us to explore the scoring function space. All necessary files to run SFSXplorer are in the zipped folder.
 The input file sfs.in is shown below,
 
-# Set up general parameters for SFSXplorer
+#Set up general parameters for SFSXplorer
 
 chklig_in,Inputs/chklig.in
 
@@ -46,7 +46,7 @@ sandres_out,Outputs/sandres_out.csv
 
 binding_type,ki
 
-# For electrostatic potential (set up parameters for arrays)
+#For electrostatic potential (set up parameters for arrays)
 
 l_i,0.001787        # Initial value of lambda used in dieletric permittivity calculation (0.001787) (float)
 
@@ -72,7 +72,7 @@ e0_f,78.4           # Final value of epsilon0(e0) (78.4) (dielectric constant of
 
 n_e0,5              # Number of elements of epsilon0(e0) (5) (dielectric constant of bulk water at 25˚C e0 = 78.4) (float)
 
-# For Solvatation potential (set up parameters for arrays)
+#For Solvatation potential (set up parameters for arrays)
 
 m_sol_i,1           # Initial value of expoent m (1) (integer)
 
@@ -100,7 +100,7 @@ energy term calculated by SFSXplorer.
 
 The chklig.in is as follows,
 
-/# Type of binding information: ki
+#Type of binding information: ki
 
 CHKLIG,1DWB,BEN,H,  1, 2.92
 
@@ -111,7 +111,9 @@ The first column is a keyword to indicate that this line brings ligand data. The
 the ligand id, ligand chain, ligand number, and the binding affinity. The first line shows the type of binding affinity.
 
 
-#Overview
+# Overview
+
+
 <img src=https://azevedolab.net/resources/going_through_scoring_function_space_2018_11_30a.gif>
 
 In our research, we see protein-ligand interaction as a result of the relation between the protein space (Smith, 1970) and the chemical space (Bohacek et al., 1996; Kirkpatrick & Ellis, 2004), and we propose to represent these sets as a unique complex system, where the application of computational methodologies may contribute to generate models to predict protein-ligand binding affinities. Such approaches have the potential to create novel semi-empirical force fields to predict binding affinity with superior predictive power when compared with standard methodologies. 
