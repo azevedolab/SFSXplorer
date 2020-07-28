@@ -1,5 +1,5 @@
 # SFSXplorer - Scoring Function Space eXplorer
-# Installation
+# How to Install
 You need to have Python 3 installed on your computer to run SFSXplorer. In addition, you also need NumPy (1.14.5*), Matplotlib, scikit-learn (0.19.1*), and SciPy (1.1.0*).
 *You can use higher versions as well.
 
@@ -118,7 +118,7 @@ the ligand id, ligand chain, ligand number, and the binding affinity. The first 
 
 In our research, we see protein-ligand interaction as a result of the relation between the protein space (Smith, 1970) and the chemical space (Bohacek et al., 1996; Kirkpatrick & Ellis, 2004), and we propose to represent these sets as a unique complex system, where the application of computational methodologies may contribute to generate models to predict protein-ligand binding affinities. Such approaches have the potential to create novel semi-empirical force fields to predict binding affinity with superior predictive power when compared with standard methodologies. 
 
-We propose to use the abstraction of a mathematical space composed of infinite computational models to predict ligand-binding affinity. We named this space as the scoring function space (Heck et al., 2017). By the use of supervised machine learning techniques is possible to explore this scoring function space and build a computational model targeted to a specific biological system. For instance, we created targeted-scoring functions for coagulation factor Xa (Xavier et al., 2016), cyclin-dependent kinases (de Ávila et al., 2017; Levin et al., 2018), HIV-1 protease (Pintro & de Azevedo, 2017), estrogen receptor (Amaral et al., 2018), cannabinoid receptor 1 (Russo & de Azevedo, 2018), and 3-dehydroquinate dehydratase (de Ávila & de Azevedo, 2018). We have also developed a scoring function to predict Gibbs free energy of binding for protein-ligand complexes (Bitencourt-Ferreira & de Azevedo, 2018). We developed the programs SAnDReS, SFSXplorer, and Taba to generate computational models to predict ligand-binding affinity. SAnDReS, SFSXplorer, and Taba are integrated computational tools to explore the scoring function space.        
+We propose to use the abstraction of a mathematical space composed of infinite computational models to predict ligand-binding affinity. We named this space as the scoring function space (Heck et al., 2017; (Bitencourt-Ferreira & de Azevedo, 2019). By the use of supervised machine learning techniques is possible to explore this scoring function space and build a computational model targeted to a specific biological system. For instance, we created targeted-scoring functions for coagulation factor Xa (Xavier et al., 2016), cyclin-dependent kinases (de Ávila et al., 2017; Levin et al., 2018), HIV-1 protease (Pintro & de Azevedo, 2017), estrogen receptor (Amaral et al., 2018), cannabinoid receptor 1 (Russo & de Azevedo, 2018), and 3-dehydroquinate dehydratase (de Ávila & de Azevedo, 2018). We have also developed a scoring function to predict Gibbs free energy of binding for protein-ligand complexes (Bitencourt-Ferreira & de Azevedo, 2018). We developed the programs SAnDReS, SFSXplorer, and Taba to generate computational models to predict ligand-binding affinity. SAnDReS, SFSXplorer, and Taba are integrated computational tools to explore the scoring function space.        
 
 Firstly, let´s consider the protein space composed of protein structures. This protein space can be represented by the protein structure space, as depicted by Hou et al. 2005 and shown below (Fig. 1). In this figure, elements of the protein structure space are represented by spheres. The sphere color represents the superfamilies of protein structures. Analysis of the protein structure space indicated that proteins with similar structures clustered together in this space. Also, the authors pointed out that the distribution of structural classes of this space followed closely that of the protein fold space.
 
@@ -163,6 +163,8 @@ So, the basic idea is quite simple; we intend to identify an element of the scor
 -Amaral MEA, Nery LR, Leite CE, de Azevedo Junior WF, Campos MM. Pre-clinical effects of metformin and aspirin on the cell lines of different breast cancer subtypes. Invest New Drugs. 2018; 36(5):782–796. 
 
 -Bitencourt-Ferreira G, de Azevedo Jr. WF. Development of a machine-learning model to predict Gibbs free energy of binding for protein-ligand complexes. Biophys Chem. 2018; 240: 63–69.  
+
+-Bitencourt-Ferreira G, de Azevedo WF Jr. Exploring the Scoring Function Space. Methods Mol Biol. 2019; 2053: 275–281.
 
 -Bohacek RS, McMartin C, Guida WC. The art and practice of structure-based drug design: a molecular modeling perspective. Med Res Rev. 1996; 16(1):3–50.
 
