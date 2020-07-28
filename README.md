@@ -1,46 +1,4 @@
 # SFSXplorer - Scoring Function Space eXplorer
-<img src=https://azevedolab.net/resources/going_through_scoring_function_space_2018_11_30a.gif>
-
-In our research, we see protein-ligand interaction as a result of the relation between the protein space (Smith, 1970) and the chemical space (Bohacek et al., 1996; Kirkpatrick & Ellis, 2004), and we propose to represent these sets as a unique complex system, where the application of computational methodologies may contribute to generate models to predict protein-ligand binding affinities. Such approaches have the potential to create novel semi-empirical force fields to predict binding affinity with superior predictive power when compared with standard methodologies. 
-
-We propose to use the abstraction of a mathematical space composed of infinite computational models to predict ligand-binding affinity. We named this space as the scoring function space (Heck et al., 2017). By the use of supervised machine learning techniques is possible to explore this scoring function space and build a computational model targeted to a specific biological system. For instance, we created targeted-scoring functions for coagulation factor Xa (Xavier et al., 2016), cyclin-dependent kinases (de Ávila et al., 2017; Levin et al., 2018), HIV-1 protease (Pintro & de Azevedo, 2017), estrogen receptor (Amaral et al., 2018), cannabinoid receptor 1 (Russo & de Azevedo, 2018), and 3-dehydroquinate dehydratase (de Ávila & de Azevedo, 2018). We have also developed a scoring function to predict Gibbs free energy of binding for protein-ligand complexes (Bitencourt-Ferreira & de Azevedo, 2018). We developed the programs SAnDReS, SFSXplorer, and Taba to generate computational models to predict ligand-binding affinity. SAnDReS, SFSXplorer, and Taba are integrated computational tools to explore the scoring function space.        
-
-Firstly, let´s consider the protein space composed of protein structures. This protein space can be represented by the protein structure space, as depicted by Hou et al. 2005 and shown below (Fig. 1). In this figure, elements of the protein structure space are represented by spheres. The sphere color represents the superfamilies of protein structures. Analysis of the protein structure space indicated that proteins with similar structures clustered together in this space. Also, the authors pointed out that the distribution of structural classes of this space followed closely that of the protein fold space.
-
-<img src="https://azevedolab.net/resources/PNAS_2018_12_02a.jpg" height="300">
-<I>Fig. 1. Protein structure space (Hou et al. 2005).</I>
-<P>&nbsp;</P>
-
-We take this finite protein space as a starting point to the application of the concept of scoring function space. The sequence of
-figures below captures the main concepts necessary to understand the scoring function space. If we pick an element of the protein space,
-for instance, the cyclin-dependent kinase family, we may identify all ligands that bind to this protein.
-
-<img src="https://azevedolab.net/resources/sfs_azevedolab_2018_09_26_view1.gif" height="150">
-<I>Fig. 2. Protein space (Heck et al. 2017).</I>
-<P>&nbsp;</P>
-
-Now, let’s consider the chemical space (Fig. 3), which is formed by small molecules that may bind or not to an element of the protein space (Bohacek et al., 1996; Dobson, 2004; Kirkpatrick & Ellis, 2004; Lipinski & Hopkins, 2004; Shoichet, 2004; Stockwell, 2004).
-
-
-<img src="https://azevedolab.net/resources/sfs_azevedolab_2018_09_26_view2.gif" height="150">
-<I>Fig. 3. Chemical space.</I>
-<P>&nbsp;</P>
-
-If we take into account a subspace of the chemical space composed of structures that bind to cyclin-dependent kinase family, it is easy to imagine an association involving the cyclin-dependent kinase and this subspace of the chemical space. We represent this relationship as an arrow from the protein space to the chemical space, as indicated below (Fig. 4). 
-
-<img src="https://azevedolab.net/resources/sfs_azevedolab_2018_09_26_view3.gif" height="150">
-<I>Fig. 4. Relationship between the protein and chemical spaces.</I>
-<P>&nbsp;</P>
-
-Finally, we consider a mathematical space composed of infinite scoring functions, each element of this space is a mathematical function that uses the atomic coordinates of protein-ligand complexes to predict the binding affinity. We indicate this relationship as an arrow from the scoring function space to the arrow indicating the relation between CDK and the chemical space, as shown below (Fig. 5).
-
-<img src="https://azevedolab.net/resources/azevedolab_sfs_2018_09_21.png" height="300">
-<I>Fig. 5. A view of the scoring function space as a way to develop a computational model to predict ligand-binding affinity. Structures of proteins available with the following PDB access codes: 2OW4, 2OVU, 2IDZ, 2GSJ, 2G85, 2A4l, 1ZTB, 1Z99, 1WE2, 1M73, 1FLH, and 1FHJ.</I>
-<P>&nbsp;</P>
-
-Moving forward, we propose that there exist at least one scoring function capable of predicting the ligand binding affinity of the elements of the chemical space for a component of the protein space. 
-So, the basic idea is quite simple; we intend to identify an element of the scoring function space that predicts the binding affinity of a component of the protein space for all elements of the subspace of the chemical space composed of ligands for the element of the protein space.
-
 # Installation
 You need to have Python 3 installed on your computer to run SFSXplorer. In addition, you also need NumPy (1.14.5*), Matplotlib, scikit-learn (0.19.1*), and SciPy (1.1.0*).
 *You can use higher versions as well.
@@ -152,6 +110,49 @@ CHKLIG,1ETR,MIT,H,  1, 7.40
 The first column is a keyword to indicate that this line brings ligand data. The second column shows the PDB access code, followed by
 the ligand id, ligand chain, ligand number, and the binding affinity. The first line shows the type of binding affinity.
 
+<img src=https://azevedolab.net/resources/going_through_scoring_function_space_2018_11_30a.gif>
+
+In our research, we see protein-ligand interaction as a result of the relation between the protein space (Smith, 1970) and the chemical space (Bohacek et al., 1996; Kirkpatrick & Ellis, 2004), and we propose to represent these sets as a unique complex system, where the application of computational methodologies may contribute to generate models to predict protein-ligand binding affinities. Such approaches have the potential to create novel semi-empirical force fields to predict binding affinity with superior predictive power when compared with standard methodologies. 
+
+We propose to use the abstraction of a mathematical space composed of infinite computational models to predict ligand-binding affinity. We named this space as the scoring function space (Heck et al., 2017). By the use of supervised machine learning techniques is possible to explore this scoring function space and build a computational model targeted to a specific biological system. For instance, we created targeted-scoring functions for coagulation factor Xa (Xavier et al., 2016), cyclin-dependent kinases (de Ávila et al., 2017; Levin et al., 2018), HIV-1 protease (Pintro & de Azevedo, 2017), estrogen receptor (Amaral et al., 2018), cannabinoid receptor 1 (Russo & de Azevedo, 2018), and 3-dehydroquinate dehydratase (de Ávila & de Azevedo, 2018). We have also developed a scoring function to predict Gibbs free energy of binding for protein-ligand complexes (Bitencourt-Ferreira & de Azevedo, 2018). We developed the programs SAnDReS, SFSXplorer, and Taba to generate computational models to predict ligand-binding affinity. SAnDReS, SFSXplorer, and Taba are integrated computational tools to explore the scoring function space.        
+
+Firstly, let´s consider the protein space composed of protein structures. This protein space can be represented by the protein structure space, as depicted by Hou et al. 2005 and shown below (Fig. 1). In this figure, elements of the protein structure space are represented by spheres. The sphere color represents the superfamilies of protein structures. Analysis of the protein structure space indicated that proteins with similar structures clustered together in this space. Also, the authors pointed out that the distribution of structural classes of this space followed closely that of the protein fold space.
+
+<img src="https://azevedolab.net/resources/PNAS_2018_12_02a.jpg" height="300">
+<I>Fig. 1. Protein structure space (Hou et al. 2005).</I>
+<P>&nbsp;</P>
+
+We take this finite protein space as a starting point to the application of the concept of scoring function space. The sequence of
+figures below captures the main concepts necessary to understand the scoring function space. If we pick an element of the protein space,
+for instance, the cyclin-dependent kinase family, we may identify all ligands that bind to this protein.
+
+<img src="https://azevedolab.net/resources/sfs_azevedolab_2018_09_26_view1.gif" height="150">
+<I>Fig. 2. Protein space (Heck et al. 2017).</I>
+<P>&nbsp;</P>
+
+Now, let’s consider the chemical space (Fig. 3), which is formed by small molecules that may bind or not to an element of the protein space (Bohacek et al., 1996; Dobson, 2004; Kirkpatrick & Ellis, 2004; Lipinski & Hopkins, 2004; Shoichet, 2004; Stockwell, 2004).
+
+
+<img src="https://azevedolab.net/resources/sfs_azevedolab_2018_09_26_view2.gif" height="150">
+<I>Fig. 3. Chemical space.</I>
+<P>&nbsp;</P>
+
+If we take into account a subspace of the chemical space composed of structures that bind to cyclin-dependent kinase family, it is easy to imagine an association involving the cyclin-dependent kinase and this subspace of the chemical space. We represent this relationship as an arrow from the protein space to the chemical space, as indicated below (Fig. 4). 
+
+<img src="https://azevedolab.net/resources/sfs_azevedolab_2018_09_26_view3.gif" height="150">
+<I>Fig. 4. Relationship between the protein and chemical spaces.</I>
+<P>&nbsp;</P>
+
+Finally, we consider a mathematical space composed of infinite scoring functions, each element of this space is a mathematical function that uses the atomic coordinates of protein-ligand complexes to predict the binding affinity. We indicate this relationship as an arrow from the scoring function space to the arrow indicating the relation between CDK and the chemical space, as shown below (Fig. 5).
+
+<img src="https://azevedolab.net/resources/azevedolab_sfs_2018_09_21.png" height="300">
+<I>Fig. 5. A view of the scoring function space as a way to develop a computational model to predict ligand-binding affinity. Structures of proteins available with the following PDB access codes: 2OW4, 2OVU, 2IDZ, 2GSJ, 2G85, 2A4l, 1ZTB, 1Z99, 1WE2, 1M73, 1FLH, and 1FHJ.</I>
+<P>&nbsp;</P>
+
+Moving forward, we propose that there exist at least one scoring function capable of predicting the ligand binding affinity of the elements of the chemical space for a component of the protein space. 
+So, the basic idea is quite simple; we intend to identify an element of the scoring function space that predicts the binding affinity of a component of the protein space for all elements of the subspace of the chemical space composed of ligands for the element of the protein space.
+
+
 <B>References</B>
 <P>&nbsp;</P>
 
@@ -179,7 +180,7 @@ the ligand id, ligand chain, ligand number, and the binding affinity. The first 
 
 -Pintro VO, Azevedo WF. Optimized Virtual Screening Workflow. Towards Target-Based Polynomial Scoring Functions for HIV-1 Protease. Comb Chem High Throughput Screen. 2017; 20(9): 820–827.   
 
--Russo S, de Azevedo WF. Advances in the Understanding of the Cannabinoid Receptor 1 - Focusing on the Inverse Agonists Interactions. Curr Med Chem. 2018. doi: 10.2174/0929867325666180417165247 
+-Russo S, De Azevedo WF. Advances in the Understanding of the Cannabinoid Receptor 1 - Focusing on the Inverse Agonists Interactions. Curr Med Chem. 2019; 26(10): 1908–1919. 
 
 -Shoichet BK. Virtual screening of chemical libraries. Nature. 2004; 432(7019):862–865.
 
