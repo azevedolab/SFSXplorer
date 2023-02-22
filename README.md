@@ -17,8 +17,7 @@ version 1.2.0, open a terminal, and type the following commands:
 <pre><I>    python3 -m pip uninstall scikit-learn
     python3 -m pip install scikit-learn==1.2.0</I></pre>
     
-<P><B>Step 3</B>. Download SFSXplorer <a href="https://azevedolab.net/resources/sfs.zip" title="Zipped folder with SFSXplorer">here</a>. Copy the sfs
-zipped directory (<a href="https://azevedolab.net/resources/sfs.zip" title="Zipped folder with SFSXplorer">sfs.zip</a>) to wherever you want it and unzip the zipped directory.
+<P><B>Step 3</B>. Download SFSXplorer <a href="https://github.com/azevedolab/SFSXplorer/raw/master/sfs.zip" title="Zipped folder with SFSXplorer">here</a>. Copy the sfs zipped directory (<a href="https://github.com/azevedolab/SFSXplorer/raw/master/sfs.zip" title="Zipped folder with SFSXplorer">sfs.zip</a>) to wherever you want it and unzip the zipped directory.
 Type the following command:</P>
 <pre><I>    unzip sfs.zip</I></pre>
 <P>Now you have SFSXplorer ready to run. Please access SFSXplorer User Guide <a href="https://azevedolab.net/resources/sfsxplorer_2023.pdf" title ="SFSXplorer User Guide">here</a> for tutorials and details about input files and commands to run it.
