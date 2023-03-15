@@ -1,0 +1,48 @@
+################################################################################
+# Dr. Walter F. de Azevedo, Jr.                                                #
+# https://azevedolab.net/                                                      #
+# January 11, 2023                                                             #
+################################################################################
+# Arguments for PlotV() class
+################################################################################
+#
+# type_plot :   Type of plot (potentials and dieletric permittivity)
+# title_in  :   Plot title, i.e. SFSXplorer Force Field (Logistic $\epsilon$)
+# x_label   :   x-axis label ("r($\AA$)")
+# y_label   :   y-axis label
+# r_min     :   Minimum value for r (interatomic distance) in Angstrom
+# r_max     :   Maximum value for r (interatomic distance) in Angstrom
+# reqm_i    :   Sum of vdW radii of two like atoms (in Angstrom) (NA atom)
+# reqm_j    :   Sum of vdW radii of two like atoms (in Angstrom) (OA atom)
+# epsilon_i :   Well depth (in Kcal/mol) (NA atom)
+# epsilon_j :   Well depth (in Kcal/mol) (OA atom)
+# log_w     :   Weight for logistic expression of dieletric permittivity equation
+# tanh_w    :   Weight for tanh expression of dieletric permittivity equation
+# a_array   :   Array for A used in dieletric permittivity calculation (-10.3525 -8.5525*)
+# e0_array  :   Array for epsilon0(e0) (dielectric constant of bulk water at 25˚C e0 = 78.4)
+# k_array   :   Array for k used in dieletric permittivity calculation (3.4781 7.7839*)
+# l_array   :   Array for lambda used in dieletric permittivity calculation (0.003627)
+# m_array   :   Array for attraction expoent m_array = np.linspace(2,3,1) m = 6
+# n_array   :   Array for repulsion expoent n_array = np.linspace(12,13,1) n = 12
+# s_array   :   Array for sigma used in desolvatation potential (3.5 A)
+#
+################################################################################
+type_plot,HB
+title_in,Hydrogen Bond Potentials
+x_label,r($\AA$)
+y_label,V(r)(Kcal/mol)
+r_min,0.2
+r_max,10
+reqm_i,1.9
+reqm_j,1.9
+epsilon_i,5.0
+epsilon_j,5.0
+log_w,1.0
+tanh_w,0.0
+a_array,-20.929,-8.5525,10
+e0_array,78.4,70.4,5
+k_array,3.4781,7.7839,10
+l_array,0.001787,0.003627,100
+m_array,2,32,31
+n_array,2,32,31
+s_array,2.5,5.0,11
