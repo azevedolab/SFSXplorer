@@ -12,10 +12,10 @@ Go to the directory where you have the installer file and type the following com
     ./Anaconda3-2021.11-Linux-x86_64.sh</I></pre>
 <P>Follow the instructions of the installer. You may use a newer installer, but be sure to have the right installer in the above command lines.
 </P>
-<B>Step 2.</B> To run SFSXplorer properly, you need <a href="https://scikit-learn.org/stable/" title="Scikit-Learn. Machine Learning in Python">Scikit-Learn</a> 1.2.2. To be sure you have
-version 1.2.2, open a terminal, and type the following commands:
+<B>Step 2.</B> To run SFSXplorer properly, you need <a href="https://scikit-learn.org/stable/" title="Scikit-Learn. Machine Learning in Python">Scikit-Learn</a> 1.4.0. To be sure you have
+version 1.4.0, open a terminal, and type the following commands:
 <pre><I>    python3 -m pip uninstall scikit-learn
-    python3 -m pip install scikit-learn==1.2.2</I></pre>
+    python3 -m pip install scikit-learn==1.4.0</I></pre>
     
 <P><B>Step 3</B>. Download SFSXplorer <a href="https://github.com/azevedolab/SFSXplorer/raw/master/sfs.zip" title="Zipped folder with SFSXplorer">here</a>. Copy the sfs zipped directory (<a href="https://github.com/azevedolab/SFSXplorer/raw/master/sfs.zip" title="Zipped folder with SFSXplorer">sfs.zip</a>) to wherever you want it and unzip the zipped directory.
 Type the following command:</P>
