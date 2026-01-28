@@ -1,4 +1,4 @@
-# SFSXplorer: Scoring Function Space eXplorer
+<H1>SFSXplorer: Scoring Function Space eXplorer</H1>
 SFSXplorer is a Python package to explore the concept of Scoring Function Space (SFS). We apply the SFS concept to build a computational model targeted to a specific protein system (targeted-scoring function). SFSXplorer employs binding affinity data and protein-ligand structures (docked or crystallographic) to train machine learning models to predict binding affinity. We base this SFS exploration on a flexible polynomial scoring function. We have the versatility to vary the energy terms in the polynomial equation, which makes available unexplored regions of the SFS. 
 
 <H2>Installing</H2>
@@ -23,7 +23,7 @@ Type the following command:</P>
 <pre><I>    unzip sfs.zip</I></pre>
 <P>Now you have SFSXplorer ready to run. Please access SFSXplorer User Guide <a href="https://azevedolab.net/resources/sfsxplorer_2023.pdf" title ="SFSXplorer User Guide">here</a> for tutorials and details about input files and commands to run it.
 <br> </br>
-<H2>Additional Material for SFSXplorer</H2>
+<H2>Additional Material Related to SFSXplorer</H2>
 <a href = "https://doi.org/10.1007/978-1-0716-4949-7" title = "de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">
 <img src="https://github.com/azevedolab/Docking/blob/2f26462b425b5050871ac6be258a46f7f4088584/docking_screens_2nd_ed_cover.png" width=200 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026."></a>
 <p>
