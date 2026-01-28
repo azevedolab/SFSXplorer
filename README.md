@@ -1,6 +1,7 @@
-# SFSXplorer - Scoring Function Space eXplorer
+# SFSXplorer: Scoring Function Space eXplorer
 SFSXplorer is a Python package to explore the concept of Scoring Function Space (SFS). We apply the SFS concept to build a computational model targeted to a specific protein system (targeted-scoring function). SFSXplorer employs binding affinity data and protein-ligand structures (docked or crystallographic) to train machine learning models to predict binding affinity. We base this SFS exploration on a flexible polynomial scoring function. We have the versatility to vary the energy terms in the polynomial equation, which makes available unexplored regions of the SFS. 
-# Installing
+
+<H2>Installing</H2>
 We describe installation and tutorials running on Linux. For more information see <a href="https://azevedolab.net/resources/sfsxplorer_2023.pdf" title ="SFSXplorer User Guide">SFSXplorer User Guide</a>
 You should type all commands shown here in a Linux terminal. The easiest way to open
 a Linux terminal is to use the Ctrl+Alt+T key combination.
@@ -21,6 +22,20 @@ version 1.4.0, open a terminal, and type the following commands:
 Type the following command:</P>
 <pre><I>    unzip sfs.zip</I></pre>
 <P>Now you have SFSXplorer ready to run. Please access SFSXplorer User Guide <a href="https://azevedolab.net/resources/sfsxplorer_2023.pdf" title ="SFSXplorer User Guide">here</a> for tutorials and details about input files and commands to run it.
+<br> </br>
+<H2>Additional Material for SFSXplorer</H2>
+<a href = "https://doi.org/10.1007/978-1-0716-4949-7" title = "de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">
+<img src="https://github.com/azevedolab/Docking/blob/2f26462b425b5050871ac6be258a46f7f4088584/docking_screens_2nd_ed_cover.png" width=200 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026."></a>
+<p>
+de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026. <a href = "https://doi.org/10.1007/978-1-0716-4949-7" title = "de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">DOI: 10.1007/978-1-0716-4949-7</a>
+</p>
+<a href="https://www.amazon.com/Docking-Screens-Discovery-Methods-Molecular/dp/1071649485/">
+<img src="https://github.com/azevedolab/Docking/blob/main/amazon_logo_01.png" width=100 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026."></a>
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
 <br> </br>
 <h2>Prof. Dr. Walter F. de Azevedo, Jr.</h2>
 <img src="https://drive.usercontent.google.com/download?id=1ao9REI0b_bCbjDy2pu4k3Tbr35LCB5Qt&export=view&authuser=0" width=200 align=left title="Walter Filgueira de Azevedo, Jr. October 02, 2024. Alfenas-MG. Brazil."></a>
