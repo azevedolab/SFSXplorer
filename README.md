@@ -25,12 +25,13 @@ Type the following command:</P>
 <br> </br>
 <H2>Additional Material Related to SFSXplorer</H2>
 <a href = "https://doi.org/10.1007/978-1-0716-4949-7" title = "de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">
-<img src="https://github.com/azevedolab/Docking/blob/2f26462b425b5050871ac6be258a46f7f4088584/docking_screens_2nd_ed_cover.png" width=200 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026."></a>
+<img src="https://drive.usercontent.google.com/download?id=1qWkaR3YMBMcfofbC9uYrq-gSfsR1BTjx&export=view&authuser=0" width=200 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">
 <p>
 de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026. <a href = "https://doi.org/10.1007/978-1-0716-4949-7" title = "de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">DOI: 10.1007/978-1-0716-4949-7</a>
 </p>
 <a href="https://www.amazon.com/Docking-Screens-Discovery-Methods-Molecular/dp/1071649485/">
-<img src="https://github.com/azevedolab/Docking/blob/main/amazon_logo_01.png" width=100 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026."></a>
+<img src="https://github.com/azevedolab/Docking/blob/main/amazon_logo_01.png" width=100 align=left title="de Azevedo WF Jr, editor. Docking screens for drug discovery. 2nd ed. New York, NY: Springer; 2026.">
+</a>
 <br> </br>
 <br> </br>
 <br> </br>
