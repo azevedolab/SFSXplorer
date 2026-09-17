@@ -1,4 +1,4 @@
-<H1>SFSXplorer: Scoring Function Space eXplorer</H1> 
+<H1>SFSXplorer: Scoring Function Space eXplorer</H1>
 SFSXplorer is a Python package to explore the concept of Scoring Function Space (SFS). We apply the SFS concept to build a computational model targeted to a specific protein system (targeted-scoring function). SFSXplorer employs binding affinity data and protein-ligand structures (docked or crystallographic) to train machine learning models to predict binding affinity. We base this SFS exploration on a flexible polynomial scoring function. We have the versatility to vary the energy terms in the polynomial equation, which makes available unexplored regions of the SFS. 
 
 <H2>Installing</H2>
